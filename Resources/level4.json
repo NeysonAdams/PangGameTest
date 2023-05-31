@@ -1,0 +1,45 @@
+{
+    "level": 4,
+    "balls": [
+        {
+            "id": 0,
+            "bounceForce": 35.0,
+            "velocity": 5.0,
+            "weight": 3.0,
+            "scale": 1.0,
+            "startPosition": {
+                "x": 150.0,
+                "y": 175.0
+            },
+            "startforce": 0.0,
+            "level": 5
+        },
+        {
+            "id": 1,
+            "bounceForce": 35.0,
+            "velocity": 5.0,
+            "weight": 3.0,
+            "scale": 1.0,
+            "startPosition": {
+                "x": -150.0,
+                "y": 175.0
+            },
+            "startforce": 0.0,
+            "level": 5
+        },
+        {
+            "id": 1,
+            "bounceForce": 35.0,
+            "velocity": 5.0,
+            "weight": 3.0,
+            "scale": 1.0,
+            "startPosition": {
+                "x": 0,
+                "y": 175.0
+            },
+            "startforce": 0.0,
+            "level": 5
+        }
+    ],
+    "players": []
+}
