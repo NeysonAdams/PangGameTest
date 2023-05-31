@@ -12,11 +12,11 @@ Main 4 models:
 
 Views
 Game Views inherit from the GameObjectView class. The main idea of this class is that it has 5 main delegates that are launched in the corresponding methods of the extensible MonoBehaviour (Start, Update, etc.)
-     public Action<Models> OnUpdate; - at Update
-     public Action<GameObjectView> OnStart; - at Start
-     public Action<GameObjectView> OnDead; - When OnDestroy
-     public Action<GameObjectView, GameObject> OnCollision; - at OnCollisionEnter2D
-     public Action<GameObjectView> OnAwake; - with Awake
+     - public Action<Models> OnUpdate; - at Update
+     - public Action<GameObjectView> OnStart; - at Start
+     - public Action<GameObjectView> OnDead; - When OnDestroy
+     - public Action<GameObjectView, GameObject> OnCollision; - at OnCollisionEnter2D
+     - public Action<GameObjectView> OnAwake; - with Awake
 
 this approach allows you to control the View from classes that do not extend MonoBehaviour
 game objects use RidgitBody2D to implement animation and physics
